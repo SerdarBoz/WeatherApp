@@ -9,22 +9,18 @@
 </head>
 
 <body>
-  <div class="app">
-    <h1>Weather App</h1>
-    <div class="search">
-      <input type="text" id="city" placeholder="Enter city name" />
-      <button id="get-weather">Get Weather</button>
-    </div>
-    <div class="weather-info">
-      <h2 id="city-name"></h2>
-      <p id="description"></p>
-      <h3 id="temperature"></h3>
-      <div id="extra-details">
-        <p id="humidity"></p>
-        <p id="wind"></p>
+  <div class="wrapper">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="container">
+      <div class="search-container">
+        <input type="text" placeholder="Enter a city name" id="city" value="Beringen" />
+        <button id="search-btn">Search</button>
       </div>
+      <div id="result"></div>
     </div>
   </div>
+  <script src="key.js"></script>
   <script src="script.js"></script>
 </body>
 
